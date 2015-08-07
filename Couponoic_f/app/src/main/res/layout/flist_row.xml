@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:padding="5dip"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/arrow" />
+
+
+    <TextView
+        android:id="@+id/txtCampaignName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom ="9dip"
+        android:text="CampaignName"
+        android:textColor="#040404"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_toEndOf="@+id/thumbnail" />
+
+    <!-- Weather Information-->
+
+    <TextView
+        android:id="@+id/txtCouponCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtCampaignName"
+        android:layout_alignLeft="@+id/txtCampaignName"
+        android:paddingTop="3dip"
+        android:layout_centerHorizontal="true"
+        android:text="Coupon Code"
+        android:textColor="#343434"
+        android:textSize="12dip" />
+
+    <TextView
+        android:id="@+id/txtRedemptionDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtCouponCode"
+        android:paddingTop="5dip"
+        android:layout_centerHorizontal="true"
+        android:text="Redemption Date"
+        android:textColor="#343434"
+        android:textSize="12dip"
+        android:layout_below="@+id/txtCouponCode" />
+
+
+
+</RelativeLayout>

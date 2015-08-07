@@ -1,0 +1,5 @@
+F:\Miki\Android\Couponoic_f\app\build\intermediates\classes\debug
+F:\Miki\Android\Couponoic_f\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-b91e67edddedab52941d0a4a5db6d51eaada365c.jar
+F:\Miki\Android\Couponoic_f\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-47b663acce30edc3d7de017b6cfba7ac8eff302d.jar
+F:\Miki\Android\Couponoic_f\app\build\intermediates\pre-dexed\debug\classes-a3da6e16ed88c8c10020b5dc7fe8611bb5cebea3.jar
+F:\Miki\Android\Couponoic_f\app\build\intermediates\pre-dexed\debug\classes-5f4ca7a72771a01dc1eae2be3d01ee3da427504f.jar

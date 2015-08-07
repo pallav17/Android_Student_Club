@@ -1,0 +1,235 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg45"
+    android:orientation="horizontal"
+    >
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout1"
+        android:padding="10dp">
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/ftvCampaignNameDetailPage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Campaign Name"
+                android:textColor="#FFFFFF"
+                android:textSize="32dp"
+                android:layout_weight="1"
+                android:layout_span="2" />
+
+        </TableRow>
+
+
+
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coupon Code"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:paddingRight="20dp"
+                />
+
+            <TextView
+                android:id="@+id/ftvCouponCodeDetailPage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Start Date"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:paddingRight="20dp"/>
+
+            <TextView
+                android:id="@+id/ftvStartDateDetailPage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="End Date"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:paddingRight="20dp"/>
+
+            <TextView
+                android:id="@+id/ftvendDateDetailPage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Purchase Value"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:paddingRight="20dp"/>
+
+            <TextView
+                android:id="@+id/ftvPurchaseValueDetailPage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/ftvType"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:paddingRight="20dp"/>
+
+            <TextView
+                android:id="@+id/ftvBenefitValueDetailPage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Affiliate Name "
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:paddingRight="20dp"
+                />
+
+            <TextView
+                android:id="@+id/ftvAffiliateNameDetailPage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Customer Name"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:paddingRight="20dp"
+                />
+
+            <TextView
+                android:id="@+id/ftvCustomerNameDetailPage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Franchisee "
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:paddingRight="20dp"
+                />
+
+            <TextView
+                android:id="@+id/ftvFranchiseeNameDetailPage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+</RelativeLayout><!-- From: file:/F:/Miki/Android/Couponoic_f/app/src/main/res/layout/activity_franchisee_coupon_detail.xml -->

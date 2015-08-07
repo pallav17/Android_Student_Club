@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <!-- ListRow Left sied Thumbnail image -->
+<!--
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip"
+        android:padding="3dip" >
+
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_gravity="top"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/sunny" />
+
+    </LinearLayout>
+-->
+    <!-- Rightend Arrow -->
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/arrow" />
+
+
+    <TextView
+        android:id="@+id/tvCampaignName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom ="9dip"
+        android:text="CampaignName"
+        android:textColor="#040404"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_toEndOf="@+id/thumbnail" />
+
+    <!-- Weather Information-->
+
+    <TextView
+        android:id="@+id/tvValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvCampaignName"
+        android:layout_alignLeft="@+id/tvCampaignName"
+        android:layout_alignBottom="@+id/thumbnail"
+        android:paddingTop="5dip"
+        android:layout_centerHorizontal="true"
+        android:text="Benefit value"
+        android:textColor="#343434"
+        android:textSize="12dip" />
+
+    <TextView
+        android:id="@+id/tvCouponCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvValue"
+        android:layout_alignBottom="@+id/thumbnail"
+        android:paddingTop="5dip"
+        android:layout_centerHorizontal="true"
+        android:text="Couponcode"
+        android:textColor="#343434"
+        android:textSize="12dip"
+        android:layout_below="@+id/tvValue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EndDate"
+        android:layout_alignLeft="@+id/tvValue"
+        android:layout_alignBottom="@+id/thumbnail"
+        android:paddingTop="5dip"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tvEndDate"
+        android:textColor="#343434"
+        android:textSize="12dip"
+        android:layout_below="@+id/tvCouponCode"/>
+
+
+</RelativeLayout><!-- From: file:/F:/Miki/Android/Couponoic_f/app/src/main/res/layout/list_row.xml -->

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:padding="5dip"
+    >
+
+    <!-- ListRow Left sied Thumbnail image -->
+    <!--
+        <LinearLayout
+            android:id="@+id/thumbnail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dip"
+            android:padding="3dip" >
+
+
+            <ImageView
+                android:id="@+id/list_image"
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:layout_gravity="top"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/sunny" />
+
+        </LinearLayout>
+    -->
+    <!-- Rightend Arrow -->
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/arrow" />
+
+
+    <TextView
+        android:id="@+id/tvFranchiseeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom ="9dip"
+        android:text="FranchiseeName"
+        android:textColor="#040404"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_toEndOf="@+id/thumbnail" />
+
+    <!-- Weather Information-->
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvFranchiseeName"
+        android:layout_alignLeft="@+id/tvFranchiseeName"
+        android:layout_alignBottom="@+id/thumbnail"
+        android:paddingTop="3dip"
+        android:layout_centerHorizontal="true"
+        android:text="Address"
+        android:textColor="#343434"
+        android:textSize="12dip" />
+
+    <TextView
+        android:id="@+id/tvCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvAddress"
+        android:layout_alignBottom="@+id/thumbnail"
+        android:paddingTop="5dip"
+        android:layout_centerHorizontal="true"
+        android:text="City"
+        android:textColor="#343434"
+        android:textSize="12dip"
+        android:layout_below="@+id/tvAddress" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="State"
+        android:layout_alignLeft="@+id/tvAddress"
+        android:layout_alignBottom="@+id/thumbnail"
+        android:paddingTop="5dip"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tvState"
+        android:textColor="#343434"
+        android:textSize="12dip"
+        android:layout_below="@+id/tvCity"/>
+<!--
+    <TextView
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Redeem Here >>"
+        android:id="@+id/txtB"
+        android:layout_below="@+id/tvAddress"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+-->
+</RelativeLayout>

@@ -1,0 +1,185 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/bg45"
+    android:orientation="horizontal"
+    >
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    android:id="@+id/tableLayout"
+    android:padding="10dp">
+<TableRow
+    android:id="@+id/tableRow1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:id="@+id/tvCampaignNameDetailPage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Campaign Name"
+        android:textColor="#FFFFFF"
+        android:textSize="32dp"
+        android:layout_weight="1"
+        android:layout_span="2" />
+
+</TableRow>
+
+
+
+<TableRow
+    android:id="@+id/tableRow2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    <TextView
+        android:id="@+id/tvCompanyNameDetailPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="CompanyName"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20dp"
+        android:paddingTop="10dp"
+        android:layout_span="2"
+        />
+</TableRow>
+
+<TableRow
+    android:id="@+id/tableRow3"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coupon Code"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:paddingRight="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tvCouponCodeDetailPage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+</TableRow>
+
+<TableRow
+    android:id="@+id/tableRow4"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Date"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingRight="20dp"/>
+
+    <TextView
+        android:id="@+id/tvStartDateDetailPage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</TableRow>
+
+<TableRow
+    android:id="@+id/tableRow5"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="End Date"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:paddingRight="20dp"/>
+
+    <TextView
+        android:id="@+id/tvendDateDetailPage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        />
+
+</TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Purchase Value"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:paddingRight="20dp"/>
+
+        <TextView
+            android:id="@+id/tvPurchaseValueDetailPage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/tvType"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:paddingRight="20dp"/>
+
+        <TextView
+            android:id="@+id/tvBenefitValueDetailPage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+    </TableRow>
+
+</TableLayout>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="  Redeem Coupon    >>"
+        android:id="@+id/btnRedeem"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffff8306"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout><!-- From: file:/F:/Miki/Android/Couponoic_f/app/src/main/res/layout/activity_coupon_detail.xml -->

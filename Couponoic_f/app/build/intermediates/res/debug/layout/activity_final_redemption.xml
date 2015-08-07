@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.ramesh.couponoic_f.FinalRedemptionActivity"
+    android:id="@+id/relativelayout1"
+    android:background="@drawable/a123">
+
+    <TextView android:text="Shake the device to transfer the coupon or just click on Transfer !"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="190dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=" Transfer / Use Coupon "
+        android:id="@+id/btnTransfer"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#6495ED"
+        />
+
+</RelativeLayout>
+<!-- From: file:/F:/Miki/Android/Couponoic_f/app/src/main/res/layout/activity_final_redemption.xml -->
